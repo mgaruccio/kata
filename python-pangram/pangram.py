@@ -11,4 +11,5 @@ def is_pangram(sentence):
     # determine the length of the resulting set
     arrayLength = len(alphaOnly)
     # return the result of a comparison between the length of the array and number of letters in the alphabet
+    # used the string class rather than a simple 26 to attmept to be compatible with other languages
     return arrayLength == len(string.ascii_lowercase)
